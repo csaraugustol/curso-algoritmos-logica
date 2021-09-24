@@ -5,7 +5,6 @@ Var
    salary, newSalary, upgradeValue : real
    percentage                      : inteiro
 
-
 Inicio
 
       escreva("Digite o salário atual: ")
