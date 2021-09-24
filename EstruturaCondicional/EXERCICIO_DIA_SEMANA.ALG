@@ -1,4 +1,4 @@
-Algoritmo "EchosenOptionercicio_day_semana"
+Algoritmo "Exercicio_day_semana"
 
 Var
 
@@ -7,7 +7,7 @@ Var
 
 Inicio
 
-   escreva("Informa um número de dia da semana: ")
+   escreva("Informa um nÃºmero de dia da semana: ")
    leia(chosenOption)
 
    se chosenOption = 1 entao
@@ -17,7 +17,7 @@ Inicio
          day <- "Segunda"
       senao
          se chosenOption = 3 entao
-            day <- "Terça"
+            day <- "TerÃ§a"
          senao
             se chosenOption = 4 entao
                day <- "Quarta"
@@ -29,9 +29,9 @@ Inicio
                      day <- "Sexta"
                   senao
                      se chosenOption = 7 entao
-                        day <- "Sábado"
+                        day <- "SÃ¡bado"
                      senao
-                        day <- "Valor inválido"
+                        day <- "Valor invÃ¡lido"
                      fimse
                   fimse
                fimse
@@ -58,9 +58,9 @@ Inicio
    caso 6
       day <- "Sexta"
    caso 7
-      day <- "Sábado"
+      day <- "SÃ¡bado"
    outrocaso
-      day <- "Valor inválido"
+      day <- "Valor invÃ¡lido"
    fimescolha
 
    escreval("Dia da semana: ", day)
