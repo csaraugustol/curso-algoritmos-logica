@@ -1,6 +1,4 @@
 Algoritmo "Exercicio_Temperatura"
-// Disciplina   : [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
 
 Var
 

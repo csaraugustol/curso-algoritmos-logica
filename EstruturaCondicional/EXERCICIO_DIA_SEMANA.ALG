@@ -1,69 +1,69 @@
-Algoritmo "Exercicio_dia_semana"
+Algoritmo "Exercicio_day_semana"
 
 Var
 
-   x : inteiro
-   dia : caractere
-   
+   chosenOption : inteiro
+   day : caractere
+
 Inicio
 
-      escreva("Informa um número de dia da semana: ")
-      leia(x)
-      
-      se x = 1 entao
-          dia <- "Domingo"
-       senao
-            se x = 2 entao
-               dia <- "Segunda"
+   escreva("Informa um nÃºmero de dia da semana: ")
+   leia(chosenOption)
+
+   se chosenOption = 1 entao
+      day <- "Domingo"
+   senao
+      se chosenOption = 2 entao
+         day <- "Segunda"
+      senao
+         se chosenOption = 3 entao
+            day <- "TerÃ§a"
+         senao
+            se chosenOption = 4 entao
+               day <- "Quarta"
             senao
-                 se x = 3 entao
-                    dia <- "Terça"
-                 senao
-                      se x = 4 entao
-                         dia <- "Quarta"
-                      senao
-                           se x = 5 entao
-                              dia <- "Quinta"
-                           senao
-                                se x = 6 entao
-                                   dia <- "Sexta"
-                                senao
-                                     se x = 7 entao
-                                        dia <- "Sábado"
-                                     senao
-                                          dia <- "Valor inválido"
-                                     fimse
-                                fimse
-                           fimse
-                      fimse
-                 fimse
+               se chosenOption = 5 entao
+                  day <- "Quinta"
+               senao
+                  se chosenOption = 6 entao
+                     day <- "Sexta"
+                  senao
+                     se chosenOption = 7 entao
+                        day <- "SÃ¡bado"
+                     senao
+                        day <- "Valor invÃ¡lido"
+                     fimse
+                  fimse
+               fimse
             fimse
-       fimse
+         fimse
+      fimse
+   fimse
 
-       escreval("Dia da semana: ", dia)
-       
-       
+   escreval("Dia da semana: ", day)
 
-      escolha x
-      caso 1
-           dia <- "Domingo"
-      caso 2
-           dia <- "Segunda"
-      caso 3
-           dia <- "Terca"
-      caso 4
-           dia <- "Quarta"
-      caso 5
-           dia <- "Quinta"
-      caso 6
-           dia <- "Sexta"
-      caso 7
-           dia <- "Sábado"
-      outrocaso
-           dia <- "Valor inválido"
-      fimescolha
-      
-      escreval("Dia da semana: ", dia)
+
+
+   escolha chosenOption
+   caso 1
+      day <- "Domingo"
+   caso 2
+      day <- "Segunda"
+   caso 3
+      day <- "Terca"
+   caso 4
+      day <- "Quarta"
+   caso 5
+      day <- "Quinta"
+   caso 6
+      day <- "Sexta"
+   caso 7
+      day <- "SÃ¡bado"
+   outrocaso
+      day <- "Valor invÃ¡lido"
+   fimescolha
+
+   escreval("Dia da semana: ", day)
 
 
 Fimalgoritmo
