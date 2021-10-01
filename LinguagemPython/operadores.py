@@ -4,7 +4,7 @@
 firstValue = 5 ** 2
 
 # Resto
-seccondValue = 5 % 2
+secondValue = 5 % 2
 
 # Divisão inteira
 thirdValue = 5 // 2
