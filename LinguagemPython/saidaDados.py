@@ -1,3 +1,5 @@
+# Exemplos de saída de dados
+
 # Imprime com quebra
 print("Zezinho")
 print("Zequinha")
@@ -6,32 +8,32 @@ print("Zequinha")
 print("Zezinho", end='')
 print("Zequinha")
 
-name1 = "Gustin"
-age = 19
+firstName = "Gustin"
+agePerson = 19
 
-print("%s tem %d anos." %(name1, age))
+print("%s tem %d anos." % (firstName, agePerson))
 
-number1: int
-number1 = 10
-print(number1)
+seccondNumber: int
+seccondNumber = 10
+print(seccondNumber)
 
-number2: float
-number2 = 2.3456
-print("{:.2f}".format(number2))
+thirdValue: float
+thirdValue = 2.3456
+print("{:.2f}".format(thirdValue))
 
-age: int
-salary: float
-height: float
-gender: str
-nome: str
+agePerson: int
+salaryPerson: float
+heightPerson: float
+genderPerson: str
+namePerson: str
 
-age = 37
-salary = 5800.5
-height = 1.63
-gender = "M"
-name = "Zezinho"
+agePerson = 37
+salaryPerson = 5800.5
+heightPerson = 1.63
+genderPerson = "M"
+namePerson = "Zezinho"
 
-print(f"O funcionário {name}, sexo {gender}, ganha {salary}, tem {height} de altura e tem {age} anos")
+print(f"O funcionário {namePerson}, sexo {genderPerson}, ganha {salaryPerson}, tem {heightPerson} de altura e tem {agePerson} anos")
 
 print("O funcionário {:s}, sexo {:s}, ganha {:.2f}, tem {:.2f} de altura e tem {:d} anos".format(
-    name, gender, salary, height, age))
+    namePerson, genderPerson, salaryPerson, heightPerson, agePerson))
