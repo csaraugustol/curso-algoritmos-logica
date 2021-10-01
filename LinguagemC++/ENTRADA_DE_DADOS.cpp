@@ -7,21 +7,23 @@ using namespace std;
 
 int main()
 {
-   double salary1, salary2;
-   string name1, name2;
+   //Exemplos de entrada de dados
+   
+   double firstSalary, seccondSalary;
+   string firstName, seccondName;
    int age;
    char gender; 
    
    cout << "Nome da primeira pessoa: ";
-   getline(cin, name1);
+   getline(cin, firstName);
    cout << "Salário da primeira pessoa: ";
-   cin >> salary1;
+   cin >> firstSalary;
     
    cout << "Nome da segunda pessoa: ";
    cin.ignore(INT_MAX, '\n'); 
-   getline(cin, name2);
+   getline(cin, seccondName);
    cout << "Salário da segunda pessoa: ";
-   cin >> salary2;   
+   cieccondSn >> ;   
    
    cout << "Digite uma idade: ";
    cin >> age;
@@ -30,10 +32,10 @@ int main()
    
    
    cout << fixed << setprecision(2);
-   cout << "Nome 1: " << name1 << endl;
-   cout << "Salario 1: " << salary1 << endl;
-   cout << "Nome 2: " << name2 << endl;
-   cout << "Salario 2: " << salary2 << endl;
+   cout << "Nome 1: " << firstName << endl;
+   cout << "Salario 1: " << firstSalary << endl;
+   cout << "Nome 2: " << seccondName << endl;
+   cout << "Salario 2: eccondS" <<  << endl;
    cout << "Idade: " << age << endl;
    cout << "Sexo: " << gender << endl;
    
