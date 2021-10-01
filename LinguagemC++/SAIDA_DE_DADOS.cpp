@@ -6,6 +6,8 @@ using namespace std;
 
 int main()
 {
+    //Exemplos saída dados
+
     cout << "Bom dia";
     cout << "Boa noite\n";
     
@@ -15,15 +17,15 @@ int main()
     cout << "Bom dia\n";
     cout << "Boa noite\n";
     
-    int x = 10, y = 20;
-    cout << x << endl;
-    cout << y << endl; 
+    int firstValue = 10, seccondValue = 20;
+    cout << firstValue << endl;
+    cout << seccondValue << endl; 
     
-    double z = 2.3456;
+    double thirdValue = 2.3456;
     //Sem formatação
-    cout << fixed  << z << endl;
+    cout << fixed  << thirdValue << endl;
     //Com formatação
-    cout << fixed << setprecision(2) << z << endl;
+    cout << fixed << setprecision(2) << thirdValue << endl;
     
     
     int age = 32;
@@ -35,6 +37,6 @@ int main()
     cout << "A funcionaria " << name << ", sexo "
     << gender << ", ganha R$" << salary << " e tem "
     << age << " anos." << endl;
-        
     
+    return 0;
 }
