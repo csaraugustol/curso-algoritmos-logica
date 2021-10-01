@@ -1,4 +1,4 @@
-# Exemplo estrutura repetitiva para
+# Exemplo estrutura repetitiva para. Lê os números e a soma deles e cada número digitado
 
 size: int
 number: int
@@ -13,5 +13,5 @@ for i in range(0, size):
 
 print(f"SOMA: {sumNumbers}")
 
-for i in range(0, 5):
+for i in range(0, size):
     print(i)
