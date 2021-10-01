@@ -6,27 +6,27 @@ int main ()
 {
     //Calcula média de idade de duas pessoas e imprime os nomes
     
-    int age1, age2;
-    string name1, name2;
+    int ageFirstPerson, ageSeccondPerson;
+    string nameFirstPerson, nameSeccondPerson;
     double averageAge;
     
     cout << "Dados da primeira pessoa:\n";
     cout << "Nome: ";
-    getline (cin, name1);
+    getline (cin, nameFirstPerson);
     cout << "Idade: ";
-    cin >> age1;
+    cin >> ageFirstPerson;
     
     cout << "Dados da segunda pessoa:\n";
     cin.ignore(INT_MAX, '\n');
     cout << "Nome: ";
-    getline (cin, name2);
+    getline (cin, nameSeccondPerson);
     cout << "Idade: ";
-    cin >> age2;
+    cin >> ageSeccondPerson;
     
-    averageAge = (age1 + age2) / 2.0;
+    averageAge = (ageFirstPerson + ageSeccondPerson) / 2.0;
     
-    cout << "A idade media de " << name1 << " e "
-    << name2 << " eh de " << averageAge << " anos," << endl;
+    cout << "A idade media de " << nameFirstPerson << " e "
+    << nameSeccondPerson << " eh de " << averageAge << " anos," << endl;
 
     return 0;
 }
