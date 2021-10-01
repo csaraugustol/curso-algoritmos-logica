@@ -1,3 +1,5 @@
+# Exemplo estrutura repetitiva enquanto
+
 number: int
 sumNumbers: int
 sumNumbers = 0
