@@ -1,3 +1,5 @@
+# Tipos de variáveis
+
 age: int
 salary: float
 height: float
