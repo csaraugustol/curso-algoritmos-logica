@@ -4,17 +4,17 @@ using namespace std;
 
 int main()
 {
-    //LÊ dois números e informa se a ordem digitada é crescente ou decrescente
-    //enquanto os números forem diferentes
+    //Lê dois números e informa se a ordem digitada é crescente ou decrescente
+    //enquanto os números de entrada forem diferentes
 
-    int number1, number2;
+    int firstNumber, seccondNumber;
     
     cout << "Digite dois numeros: " << endl;
-    cin >> number1 >> number2;
+    cin >> firstNumber >> seccondNumber;
     
-    while(number1 != number2)
+    while(firstNumber != seccondNumber)
     {
-        if( number1 < number2)
+        if( firstNumber < seccondNumber)
         {
             cout << "Crescente!" << endl;
         } else {
@@ -22,7 +22,7 @@ int main()
         }
         
         cout << "Digite outros dois numeros: " << endl;
-        cin >> number1 >> number2;
+        cin >> firstNumber >> seccondNumber;
     }
 
     return 0;
