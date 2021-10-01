@@ -1,3 +1,5 @@
+# Exemplo de vetor em python e realiza a impressão de dados
+
 size: int
 
 size = int(input("Quantos números serão digitados? "))
