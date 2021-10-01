@@ -1,16 +1,18 @@
-lines: int
-columns: int
+# Lê uma matriz e imprime seus números
 
-lines = int(input("Quantas linhas terá a matriz?"))
-columns = int(input("Quantas colunas terá a matriz?"))
+linesNumbers: int
+columnsNumbers: int
 
-matriz: [[int]] = [[0 for x in range(columns)] for x in range(lines)]
+linesNumbers = int(input("Quantas linhas terá a matriz?"))
+columnsNumbers = int(input("Quantas colunas terá a matriz?"))
 
-for i in range(0, lines):
-    for j in range(0, columns):
+matriz: [[int]] = [[0 for x in range(columnsNumbers)] for x in range(linesNumbers)]
+
+for i in range(0, linesNumbers):
+    for j in range(0, columnsNumbers):
         matriz[i][j] = int(input(f"Elemento [{i},{j}]: "))
 
-for i in range(0, lines):
-    for j in range(0, columns):
+for i in range(0, linesNumbers):
+    for j in range(0, columnsNumbers):
         print(f"{matriz[i][j]} ", end="")
     print()
