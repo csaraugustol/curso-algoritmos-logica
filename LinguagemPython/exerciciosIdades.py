@@ -1,19 +1,19 @@
 # Lê duas idades e imprime a média
 
-name1: str
-name2: str
-age1: int
-age2: int
+firstName: str
+seccondName: str
+ageFirstName: int
+ageSeccondName: int
 average: float
 
 print("Dados da primeira pessoa:")
-name1 = input("Nome: ")
-age1 = int(input("Idade: "))
+firstName = input("Nome: ")
+ageFirstName = int(input("Idade: "))
 print()
 print("Dados da segunda pessoa:")
-name2 = input("Nome: ")
-age2 = int(input("Idade: "))
+seccondName = input("Nome: ")
+ageSeccondName = int(input("Idade: "))
 
-average = (age1 + age2) / 2
+average = (ageFirstName + ageSeccondName) / 2
 
-print(f"A idade média de {name1} e {name2} é de {average:.1f} anos")
+print(f"A idade média de {firstName} e {seccondName} é de {average:.1f} anos")
