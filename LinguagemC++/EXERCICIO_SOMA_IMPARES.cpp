@@ -5,20 +5,20 @@ using namespace std;
 int main()
 {
 
-    int number1, number2, change, sumNumbers;
+    int firstNumber, seccondNumber, change, sumNumbers;
     
     cout << "Digite dois numeros: " << endl;
-    cin >> number1 >> number2;
+    cin >> firstNumber >> seccondNumber;
     
-    if(number1 > number2)
+    if(firstNumber > seccondNumber)
     {
-        change = number1;
-        number1 = number2;
-        number2 = change;
+        change = firstNumber;
+        firstNumber = seccondNumber;
+        seccondNumber = change;
     }
     
     sumNumbers = 0;
-    for (int i = number1+1; i < number2-1; i++)
+    for (int i = firstNumber+1; i < seccondNumber-1; i++)
     {
         if (i % 2 != 0)
         {
