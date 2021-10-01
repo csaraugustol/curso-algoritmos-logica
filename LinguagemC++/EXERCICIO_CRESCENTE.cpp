@@ -7,14 +7,14 @@ int main()
     //Lê dois números e informa se a ordem digitada é crescente ou decrescente
     //enquanto os números de entrada forem diferentes
 
-    int firstNumber, seccondNumber;
+    int firstNumber, secondNumber;
     
     cout << "Digite dois numeros: " << endl;
-    cin >> firstNumber >> seccondNumber;
+    cin >> firstNumber >> secondNumber;
     
-    while(firstNumber != seccondNumber)
+    while(firstNumber != secondNumber)
     {
-        if( firstNumber < seccondNumber)
+        if( firstNumber < secondNumber)
         {
             cout << "Crescente!" << endl;
         } else {
@@ -22,7 +22,7 @@ int main()
         }
         
         cout << "Digite outros dois numeros: " << endl;
-        cin >> firstNumber >> seccondNumber;
+        cin >> firstNumber >> secondNumber;
     }
 
     return 0;
