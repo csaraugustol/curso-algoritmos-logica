@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-    //Imprime diagonal principal e quantidade de negativos
+    //Imprime diagonal principal e quantidade de negativos da matriz
 
-    int size, countNegativesNumbers = 0;
+    int matrizSize, countNegativesNumbers = 0;
     
     cout << "Qual a ordem da matriz? ";
-    cin >> size;
+    cin >> matrizSize;
     
-    int matrizNumbers[size][size];
+    int matrizNumbers[matrizSize][matrizSize];
     
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < matrizSize; i++)
     {
-        for (int j = 0; j < size; j++)
+        for (int j = 0; j < matrizSize; j++)
         {
             cout << "Elemento ["<< i << "," << j << "]:";
             cin >> matrizNumbers[i][j];
@@ -23,14 +23,14 @@ int main()
     }
     
     cout << "Diagonal principal:" << endl; 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < matrizSize; i++)
     {
             cout << matrizNumbers[i][i] << " ";
     }
     
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < matrizSize; i++)
     {
-        for (int j = 0; j < size; j++)
+        for (int j = 0; j < matrizSize; j++)
         {
             if (matrizNumbers[i][j] < 0)
             {
