@@ -6,21 +6,25 @@ using namespace std;
 
 int main()
 {
-    int idade;
-    double salario, altura;
-    char genero;
-    string nome;
+    //Exemplo para ler dados
+
+    int age;
+    double salary, height;
+    char gender;
+    string name;
     
-    idade = 20;
-    salario = 5800.5;
-    altura = 1.63;
-    genero = 'F';
-    nome = "Maria Silva";
+    age = 20;
+    salary = 5800.5;
+    height = 1.63;
+    gender = 'F';
+    name = "Maria Silva";
  
     cout << fixed << setprecision(2);
-    cout << "IDADE = " << idade << endl;
-    cout << "SALARIO = " << salario << endl;
-    cout << "ALTURA = " << altura << endl;
-    cout << "GENERO = " << genero << endl;
-    cout << "NOME = " << nome << endl;
+    cout << "IDADE = " << age << endl;
+    cout << "SALARIO = " << salary << endl;
+    cout << "ALTURA = " << height << endl;
+    cout << "GENERO = " << gender << endl;
+    cout << "NOME = " << name << endl;
+    
+    return 0;
 }
