@@ -1,3 +1,5 @@
+# Exemplo estrutura repetitiva para
+
 size: int
 number: int
 sumNumbers: int
