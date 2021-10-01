@@ -9,5 +9,5 @@ seccondValue = 5 % 2
 # Divisão inteira
 thirdValue = 5 // 2
 
-# Divisão double
+# Divisão float
 fourthValue = 5 / 2
