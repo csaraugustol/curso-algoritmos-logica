@@ -17,9 +17,9 @@ int main()
     cout << "Bom dia\n";
     cout << "Boa noite\n";
     
-    int firstValue = 10, seccondValue = 20;
+    int firstValue = 10, secondValue = 20;
     cout << firstValue << endl;
-    cout << seccondValue << endl; 
+    cout << secondValue << endl; 
     
     double thirdValue = 2.3456;
     //Sem formatação
