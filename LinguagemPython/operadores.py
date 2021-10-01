@@ -1,15 +1,13 @@
-x = 5
-y = 2
+# Exemplos de operadores
 
 # Elevação
-z = 5 ** 2
+firstValue = 5 ** 2
 
 # Resto
-w = 5 % 2
+seccondValue = 5 % 2
 
 # Divisão inteira
-a = 5 // 2
+thirdValue = 5 // 2
 
 # Divisão double
-a = 5 / 2
-
+fourthValue = 5 / 2
