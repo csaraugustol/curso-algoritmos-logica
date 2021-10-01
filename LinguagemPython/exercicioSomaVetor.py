@@ -1,26 +1,26 @@
-# Realiza a soma do vetor
+# Realiza a soma do vetor e calcula a média de seus números
 
-size: int
-average: float
-sumNumbers: float
+vectorSize: int
+averageVectorNumbers: float
+sumVectorNumbers: float
 
-size = int(input("Quantos números serão digitados? "))
+vectorSize = int(input("Quantos números serão digitados? "))
 
-vectorNumbers: float = [0 for x in range(size)]
+vectorNumbers: float = [0 for x in range(vectorSize)]
 
-for i in range(0, size):
-    vectorNumbers[i] = float(input(f"Número {i + 1}/{size}: "))
+for i in range(0, vectorSize):
+    vectorNumbers[i] = float(input(f"Número {i + 1}/{vectorSize}: "))
 
-sumNumbers = 0
-for i in range(0, size):
-    sumNumbers += vectorNumbers[i]
+sumVectorNumbers = 0
+for i in range(0, vectorSize):
+    sumVectorNumbers += vectorNumbers[i]
 
-average = sumNumbers / size
+averageVectorNumbers = sumVectorNumbers / vectorSize
 
 print("Valores: ", end="")
-for i in range(0, size):
+for i in range(0, vectorSize):
     print(f"{vectorNumbers[i]:.1f} ", end="")
 
 print()
-print(f"Soma: {sumNumbers:.2f}")
-print(f"Média: {average:.2f}")
+print(f"Soma: {sumVectorNumbers:.2f}")
+print(f"Média: {averageVectorNumbers:.2f}")
