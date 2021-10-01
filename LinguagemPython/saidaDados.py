@@ -13,9 +13,9 @@ agePerson = 19
 
 print("%s tem %d anos." % (firstName, agePerson))
 
-seccondNumber: int
-seccondNumber = 10
-print(seccondNumber)
+secondNumber: int
+secondNumber = 10
+print(secondNumber)
 
 thirdValue: float
 thirdValue = 2.3456
