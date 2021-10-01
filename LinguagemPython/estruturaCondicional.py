@@ -1,8 +1,11 @@
-x = 10
+# Exemplos de estrutura condicional em Phyton
+
+dayPeriod: int
+dayPeriod = 10
 
 print("Bom dia")
 
-if x < 0:
+if dayPeriod < 0:
     print("Boa tarde")
 else:
     print("Boa noite")
