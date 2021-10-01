@@ -7,17 +7,17 @@ int main()
     //Calcula a percentual de pessoas com idades abaixo de 16 anos e seus nomes
     //e também a média de altura
 
-    int size;
+    int vectorSize;
     double averageHeights, sumHeights = 0, countUnderAges16 = 0, percentualUnder16;
     
     cout << "Quantas pessoas serao digitadas? ";
-    cin >> size;
+    cin >> vectorSize;
     
-    string vectorNames[size];
-    int vectorAges[size];
-    double vectorHeights[size];
+    string vectorNames[vectorSize];
+    int vectorAges[vectorSize];
+    double vectorHeights[vectorSize];
     
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < vectorSize; i++)
     {
         cout << "Dados da " << i+1 << "a pessoa:" << endl;
         cout << "Nome: ";
@@ -29,16 +29,16 @@ int main()
         cin >> vectorHeights[i];
     }
     
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < vectorSize; i++)
     {
         sumHeights += vectorHeights[i];
     }
-    averageHeights = sumHeights / size;
+    averageHeights = sumHeights / vectorSize;
     
     cout << fixed << setprecision(2);
     cout << "Altura media: " << averageHeights << endl;
     
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < vectorSize; i++)
     {
         if (vectorAges[i] < 16)
         {
@@ -46,12 +46,12 @@ int main()
         }
     }
     
-    percentualUnder16 = (countUnderAges16 * 100.0) / size;
+    percentualUnder16 = (countUnderAges16 * 100.0) / vectorSize;
     
     cout << fixed << setprecision(1);
     cout << "Pessoas com menos de 16 anos: " << percentualUnder16 << "%" << endl;
     
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < vectorSize; i++)
     {
         if (vectorAges[i] < 16)
         {
